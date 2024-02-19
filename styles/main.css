@@ -1,0 +1,219 @@
+.main {
+  width: 80%;
+  height: 1150px;
+  margin-left: 8px;
+  margin-bottom: 3px;
+  border-radius: 25px;
+  background-color: rgb(18, 18, 18);
+}
+
+.search-sus {
+  display: flex;
+  align-items: center;
+  
+  padding: 8px;
+}
+
+.less-greater {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.left-part-search {
+  display: flex;
+  align-items: center;
+}
+
+.input-bar {
+  background-color: rgb(42, 42, 42);
+  padding: 18px 40px 18px 15px;
+
+  text-align: start;
+  font-size: 15px;
+  color: white;
+
+  border: none;
+  border-radius: 20px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+  width: 100%;
+}
+
+/*recents searches*/
+
+.text-recents-searches {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.recents-searches {
+  margin-left: 15px;
+}
+
+.recents-searches-text {
+  display: flex;
+  align-items: center;
+}
+
+.artist-profile {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 15px;
+}
+
+.artists-profile-container {
+  background-color: rgb(40, 40, 40);
+  padding: 15px 15px 26px 15px;
+  border-radius: 15px;
+  margin-right: 7px;
+  cursor: pointer;
+  position: relative;
+}
+
+.photo-artist-recent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.artists-profile-container:hover
+.tooltip {
+  opacity: 1;
+}
+
+.artists-profile-container
+.tooltip {
+  position: absolute;
+  right: 15px;
+  top: 120px;
+  opacity: 0;
+  transition: opacity 0.35s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.artist-name-recents {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  transition: fontsize 0.15s;
+}
+
+.artist-name-recents:hover {
+  font-size: 18px;
+}
+
+.artist-type-recents {
+  color: rgb(100, 100, 100);
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+/*Made for you*/
+
+.made-for-you {
+  margin-left: 20px;
+}
+
+.container-made-for-you-main {
+  display: grid;
+  grid-template-columns: repeat(5, 183.422px);
+  gap: 20px;
+}
+
+.made-for-you-text {
+  font-family: Arial;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+} 
+
+.container-made-for-you {
+  position: relative;
+  padding: 16px;
+  background-color: rgb(23, 23, 23);
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.15s;
+}
+
+.tooltip-mfy {
+  position: absolute;
+  top: 125px;
+  right: 17px;
+  opacity: 0;
+}
+
+.container-made-for-you:hover
+.tooltip-mfy {
+  transition: opacity 0.50s;
+  opacity: 1;
+}
+
+.container-made-for-you:hover {
+  padding: 16px;
+  background-color: rgb(40, 40, 40);
+}
+
+.name-mfy-text {
+  font-weight: 700;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.text-mfy {
+  width: px;
+}
+
+.text-mfy-text {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(137, 137, 137);
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+/*recently played*/
+
+.recently-played {
+  margin-left: 20px;
+}
+
+.container-recently-played {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 20px;
+}
+
+.name-recently-text {
+  font-size: 19px;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.name-recently-text:hover {
+  font-size: 20px;
+}
+
+.text-recently-text {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(137, 137, 137);
+  margin-top: 10px;
+  margin-bottom: 0px;
+}

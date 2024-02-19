@@ -1,0 +1,131 @@
+
+
+.sidebar-sus {
+  height: 112px;
+  background-color: #121212;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.sidebar-jos {
+  background-color: #121212;
+  border-radius: 20px;
+  height: 970px;
+  
+}
+
+.small-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 5px;
+}
+
+.sidebar-sus-text {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(170, 170, 170);
+  cursor: pointer;
+}
+
+.sidebar-sus-text:hover {
+  color: white;
+  transition: 0.15s color;
+}
+
+.your-library {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.plus-button {
+  margin-left: 190px;
+  margin-top: 6px;
+}
+
+.categorii {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+.sidebar-cat-text {
+  margin-left: 10px;
+  margin-bottom: 0px;
+  font-size: 17px;
+  border-radius: 20px;
+
+  font-weight: bold;
+  padding: 9px 15px 9px 15px;
+  color: rgb(170, 170, 170);;
+  cursor: pointer;
+  transition: 0.15s color;
+
+  background-color: #2A2A2A;
+  border: none;
+  border-color: black;
+  border-width: thin;
+}
+
+.sidebar-cat-text:hover {
+  color: white;
+}
+
+.recents-search {
+  display: flex;
+  align-items: center;
+  gap: 300px;
+  margin-bottom: 5px;
+}
+
+.recents-search-text {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.recents-search-left {
+  display: flex;
+  align-items: center;
+}
+
+/*artistii*/
+
+.artist-container {
+  display: grid;
+  grid-template-columns: 46px 1fr;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.artist-name-text{
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+.artist-name-text:hover {
+  font-size: 16px;
+  margin-bottom: 14px;
+  transition: 0.15s;
+}
+
+.artist-type-text {
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(133, 133, 133);
+  cursor: pointer;
+  margin-top: -10px;
+  margin-bottom: 0px;
+  margin-left: 1px;
+}
+
+.artist-name-type {
+  margin-left: 4px;
+}

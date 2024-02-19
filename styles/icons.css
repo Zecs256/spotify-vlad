@@ -1,0 +1,62 @@
+.icons-sus {
+  width: 28px;
+  height: 28px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.icons-recents {
+  width: 16px;
+  height: 16px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.photo-artist {
+  width: 46px;
+  height: 46px;
+  border-radius: 23px;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+.icons-search-sus-main {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(42, 42, 42);
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.icons-profile-picture {
+  width: 38px;
+  height: 38px;
+  border-radius: 17.5px;
+  cursor: pointer;
+}
+
+.artists-profile-photo {
+  width: 151px;
+  height: 151px;
+  border-radius: 75.5px;
+  cursor: pointer;
+}
+
+.play-icon {
+  width: 50px;
+  height: 50px;
+  box-shadow: 10px 10px 5px rgb(31, 27, 27);
+  border-radius: 25px;
+  border: none;
+}
+
+.made-for-you-text {
+  margin-bottom: 10px;
+}
+
+.photo-made-for-you {
+  width: 151px;
+  height: 151px;
+  border-radius: 6px;
+}
